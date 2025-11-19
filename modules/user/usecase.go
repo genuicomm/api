@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"gitlab.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/domain"
 	"golang.org/x/crypto/bcrypt"
 )
 

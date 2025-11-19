@@ -9,7 +9,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"gitlab.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/domain"
 )
 
 type fileUsecase struct {

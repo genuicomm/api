@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"gitlab.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/domain"
 )
 
 // AuthRepository mendefinisikan kontrak untuk operasi repository auth

@@ -2,7 +2,7 @@ package user
 
 import (
 	"github.com/google/uuid"
-	"gitlab.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/domain"
 )
 
 // UserUsecase mendefinisikan kontrak untuk operasi usecase user

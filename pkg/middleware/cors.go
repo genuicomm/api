@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"gitlab.com/genuicomm/api/pkg/config"
+	"github.com/genuicomm/api/pkg/config"
 )
 
 // CORS adalah middleware untuk menangani Cross-Origin Resource Sharing

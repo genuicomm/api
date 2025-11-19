@@ -2,7 +2,7 @@ package article
 
 import (
 	"github.com/google/uuid"
-	"gitlab.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/domain"
 )
 
 // ArticleUsecase adalah interface untuk logika bisnis article

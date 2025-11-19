@@ -1,4 +1,4 @@
-module gitlab.com/genuicomm/api
+module github.com/genuicomm/api
 
 go 1.23.2
 
