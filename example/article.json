@@ -1,0 +1,302 @@
+{
+  "request": {
+    "create": {
+      "title": "Cara Membuat Sertifikat Digital",
+      "slug": "cara-membuat-sertifikat-digital",
+      "content": "Sertifikat digital adalah dokumen elektronik yang dapat digunakan untuk membuktikan identitas atau hak seseorang. Artikel ini akan membahas cara membuat sertifikat digital yang aman dan terverifikasi.",
+      "excerpt": "Panduan lengkap membuat sertifikat digital yang aman dan terverifikasi untuk berbagai keperluan.",
+      "featured_image": "https://example.com/images/sertifikat-digital.jpg",
+      "status": "published",
+      "meta": {
+        "title": "Cara Membuat Sertifikat Digital | Panduan Lengkap",
+        "description": "Panduan lengkap cara membuat sertifikat digital yang aman dan terverifikasi untuk berbagai keperluan bisnis dan personal.",
+        "keywords": "sertifikat digital, sertifikat elektronik, verifikasi digital, keamanan digital"
+      },
+      "author_id": 1,
+      "category_id": 2,
+      "tags": ["sertifikat", "digital", "keamanan", "verifikasi"]
+    },
+    "update": {
+      "title": "Cara Membuat Sertifikat Digital yang Aman",
+      "slug": "cara-membuat-sertifikat-digital-yang-aman",
+      "content": "Sertifikat digital adalah dokumen elektronik yang dapat digunakan untuk membuktikan identitas atau hak seseorang. Artikel ini akan membahas cara membuat sertifikat digital yang aman dan terverifikasi dengan langkah-langkah yang lebih detail.",
+      "excerpt": "Panduan lengkap membuat sertifikat digital yang aman dan terverifikasi untuk berbagai keperluan dengan praktik terbaik.",
+      "featured_image": "https://example.com/images/sertifikat-digital-aman.jpg",
+      "status": "published",
+      "meta": {
+        "title": "Cara Membuat Sertifikat Digital yang Aman | Panduan Lengkap",
+        "description": "Panduan lengkap cara membuat sertifikat digital yang aman dan terverifikasi untuk berbagai keperluan bisnis dan personal dengan praktik keamanan terbaik.",
+        "keywords": "sertifikat digital, sertifikat elektronik, verifikasi digital, keamanan digital, praktik terbaik"
+      },
+      "author_id": 1,
+      "category_id": 2,
+      "tags": ["sertifikat", "digital", "keamanan", "verifikasi", "praktik terbaik"]
+    },
+    "list": {
+      "page": 1,
+      "limit": 10,
+      "search": "sertifikat",
+      "category": "teknologi",
+      "tag": "digital",
+      "status": "published",
+      "sort": "created_at",
+      "order": "desc"
+    },
+    "detail": {
+      "id": 123
+    }
+  },
+  "response": {
+    "list": {
+      "data": {
+        "articles": [
+          {
+            "id": 123,
+            "title": "Cara Membuat Sertifikat Digital",
+            "slug": "cara-membuat-sertifikat-digital",
+            "excerpt": "Panduan lengkap membuat sertifikat digital yang aman dan terverifikasi untuk berbagai keperluan.",
+            "featured_image": "https://example.com/images/sertifikat-digital.jpg",
+            "status": "published",
+            "author": {
+              "id": 1,
+              "name": "Admin",
+              "email": "admin@example.com",
+              "avatar": "https://example.com/images/admin-avatar.jpg"
+            },
+            "category": {
+              "id": 2,
+              "name": "Teknologi",
+              "slug": "teknologi"
+            },
+            "tags": [
+              {
+                "id": 5,
+                "name": "Sertifikat",
+                "slug": "sertifikat"
+              },
+              {
+                "id": 6,
+                "name": "Digital",
+                "slug": "digital"
+              },
+              {
+                "id": 7,
+                "name": "Keamanan",
+                "slug": "keamanan"
+              },
+              {
+                "id": 8,
+                "name": "Verifikasi",
+                "slug": "verifikasi"
+              }
+            ],
+            "created_at": "2023-05-15T08:30:00Z",
+            "updated_at": "2023-05-16T10:45:00Z",
+            "published_at": "2023-05-15T09:00:00Z"
+          },
+          {
+            "id": 124,
+            "title": "Verifikasi Sertifikat Digital",
+            "slug": "verifikasi-sertifikat-digital",
+            "excerpt": "Bagaimana cara memverifikasi keaslian sertifikat digital dan menghindari pemalsuan.",
+            "featured_image": "https://example.com/images/verifikasi-sertifikat.jpg",
+            "status": "published",
+            "author": {
+              "id": 1,
+              "name": "Admin",
+              "email": "admin@example.com",
+              "avatar": "https://example.com/images/admin-avatar.jpg"
+            },
+            "category": {
+              "id": 2,
+              "name": "Teknologi",
+              "slug": "teknologi"
+            },
+            "tags": [
+              {
+                "id": 6,
+                "name": "Digital",
+                "slug": "digital"
+              },
+              {
+                "id": 8,
+                "name": "Verifikasi",
+                "slug": "verifikasi"
+              }
+            ],
+            "created_at": "2023-05-14T07:20:00Z",
+            "updated_at": "2023-05-14T08:15:00Z",
+            "published_at": "2023-05-14T07:30:00Z"
+          }
+        ],
+        "pagination": {
+          "total": 45,
+          "per_page": 10,
+          "current_page": 1,
+          "last_page": 5,
+          "from": 1,
+          "to": 10
+        }
+      },
+      "message": "Daftar artikel berhasil diambil",
+      "status": "success"
+    },
+    "detail": {
+      "data": {
+        "article": {
+          "id": 123,
+          "title": "Cara Membuat Sertifikat Digital",
+          "slug": "cara-membuat-sertifikat-digital",
+          "content": "Sertifikat digital adalah dokumen elektronik yang dapat digunakan untuk membuktikan identitas atau hak seseorang. Artikel ini akan membahas cara membuat sertifikat digital yang aman dan terverifikasi.\n\n## Apa itu Sertifikat Digital?\n\nSertifikat digital adalah dokumen elektronik yang berisi informasi tentang identitas pemegang sertifikat dan digunakan untuk membuktikan keaslian dokumen atau transaksi digital.\n\n## Manfaat Sertifikat Digital\n\n1. Keamanan yang lebih baik\n2. Verifikasi yang mudah\n3. Mengurangi risiko pemalsuan\n4. Efisiensi dalam pengelolaan dokumen\n\n## Cara Membuat Sertifikat Digital\n\n1. Pilih penyedia layanan sertifikat digital terpercaya\n2. Lengkapi dokumen yang diperlukan\n3. Verifikasi identitas\n4. Pilih jenis sertifikat yang sesuai kebutuhan\n5. Proses pembuatan dan penerbitan\n\n## Praktik Terbaik\n\n- Selalu gunakan penyedia layanan terpercaya\n- Simpan sertifikat dengan aman\n- Perbarui sertifikat secara berkala\n- Verifikasi keaslian sebelum menggunakan",
+          "excerpt": "Panduan lengkap membuat sertifikat digital yang aman dan terverifikasi untuk berbagai keperluan.",
+          "featured_image": "https://example.com/images/sertifikat-digital.jpg",
+          "status": "published",
+          "meta": {
+            "title": "Cara Membuat Sertifikat Digital | Panduan Lengkap",
+            "description": "Panduan lengkap cara membuat sertifikat digital yang aman dan terverifikasi untuk berbagai keperluan bisnis dan personal.",
+            "keywords": "sertifikat digital, sertifikat elektronik, verifikasi digital, keamanan digital"
+          },
+          "author": {
+            "id": 1,
+            "name": "Admin",
+            "email": "admin@example.com",
+            "avatar": "https://example.com/images/admin-avatar.jpg",
+            "bio": "Administrator website dengan pengalaman 5 tahun di bidang teknologi informasi."
+          },
+          "category": {
+            "id": 2,
+            "name": "Teknologi",
+            "slug": "teknologi",
+            "description": "Artikel seputar teknologi dan inovasi digital"
+          },
+          "tags": [
+            {
+              "id": 5,
+              "name": "Sertifikat",
+              "slug": "sertifikat"
+            },
+            {
+              "id": 6,
+              "name": "Digital",
+              "slug": "digital"
+            },
+            {
+              "id": 7,
+              "name": "Keamanan",
+              "slug": "keamanan"
+            },
+            {
+              "id": 8,
+              "name": "Verifikasi",
+              "slug": "verifikasi"
+            }
+          ],
+          "related_articles": [
+            {
+              "id": 124,
+              "title": "Verifikasi Sertifikat Digital",
+              "slug": "verifikasi-sertifikat-digital",
+              "excerpt": "Bagaimana cara memverifikasi keaslian sertifikat digital dan menghindari pemalsuan.",
+              "featured_image": "https://example.com/images/verifikasi-sertifikat.jpg"
+            },
+            {
+              "id": 125,
+              "title": "Standar Keamanan Sertifikat Digital",
+              "slug": "standar-keamanan-sertifikat-digital",
+              "excerpt": "Standar keamanan yang harus dipenuhi dalam pembuatan sertifikat digital.",
+              "featured_image": "https://example.com/images/standar-keamanan.jpg"
+            }
+          ],
+          "created_at": "2023-05-15T08:30:00Z",
+          "updated_at": "2023-05-16T10:45:00Z",
+          "published_at": "2023-05-15T09:00:00Z"
+        }
+      },
+      "message": "Detail artikel berhasil diambil",
+      "status": "success"
+    },
+    "create": {
+      "data": {
+        "article": {
+          "id": 123,
+          "title": "Cara Membuat Sertifikat Digital",
+          "slug": "cara-membuat-sertifikat-digital",
+          "content": "Sertifikat digital adalah dokumen elektronik yang dapat digunakan untuk membuktikan identitas atau hak seseorang. Artikel ini akan membahas cara membuat sertifikat digital yang aman dan terverifikasi.",
+          "excerpt": "Panduan lengkap membuat sertifikat digital yang aman dan terverifikasi untuk berbagai keperluan.",
+          "featured_image": "https://example.com/images/sertifikat-digital.jpg",
+          "status": "published",
+          "meta": {
+            "title": "Cara Membuat Sertifikat Digital | Panduan Lengkap",
+            "description": "Panduan lengkap cara membuat sertifikat digital yang aman dan terverifikasi untuk berbagai keperluan bisnis dan personal.",
+            "keywords": "sertifikat digital, sertifikat elektronik, verifikasi digital, keamanan digital"
+          },
+          "author_id": 1,
+          "category_id": 2,
+          "tags": ["sertifikat", "digital", "keamanan", "verifikasi"],
+          "created_at": "2023-05-15T08:30:00Z",
+          "updated_at": "2023-05-15T08:30:00Z",
+          "published_at": "2023-05-15T09:00:00Z"
+        }
+      },
+      "message": "Artikel berhasil dibuat",
+      "status": "success"
+    },
+    "update": {
+      "data": {
+        "article": {
+          "id": 123,
+          "title": "Cara Membuat Sertifikat Digital yang Aman",
+          "slug": "cara-membuat-sertifikat-digital-yang-aman",
+          "content": "Sertifikat digital adalah dokumen elektronik yang dapat digunakan untuk membuktikan identitas atau hak seseorang. Artikel ini akan membahas cara membuat sertifikat digital yang aman dan terverifikasi dengan langkah-langkah yang lebih detail.",
+          "excerpt": "Panduan lengkap membuat sertifikat digital yang aman dan terverifikasi untuk berbagai keperluan dengan praktik terbaik.",
+          "featured_image": "https://example.com/images/sertifikat-digital-aman.jpg",
+          "status": "published",
+          "meta": {
+            "title": "Cara Membuat Sertifikat Digital yang Aman | Panduan Lengkap",
+            "description": "Panduan lengkap cara membuat sertifikat digital yang aman dan terverifikasi untuk berbagai keperluan bisnis dan personal dengan praktik keamanan terbaik.",
+            "keywords": "sertifikat digital, sertifikat elektronik, verifikasi digital, keamanan digital, praktik terbaik"
+          },
+          "author_id": 1,
+          "category_id": 2,
+          "tags": ["sertifikat", "digital", "keamanan", "verifikasi", "praktik terbaik"],
+          "created_at": "2023-05-15T08:30:00Z",
+          "updated_at": "2023-05-16T10:45:00Z",
+          "published_at": "2023-05-15T09:00:00Z"
+        }
+      },
+      "message": "Artikel berhasil diperbarui",
+      "status": "success"
+    },
+    "delete": {
+      "message": "Artikel berhasil dihapus",
+      "status": "success"
+    },
+    "error": {
+      "not_found": {
+        "message": "Artikel tidak ditemukan",
+        "status": "error",
+        "code": 404
+      },
+      "validation": {
+        "message": "Data tidak valid",
+        "status": "error",
+        "code": 422,
+        "errors": {
+          "title": ["Judul artikel wajib diisi"],
+          "content": ["Konten artikel wajib diisi"],
+          "slug": ["Slug artikel sudah digunakan"]
+        }
+      },
+      "unauthorized": {
+        "message": "Anda tidak memiliki akses untuk melakukan operasi ini",
+        "status": "error",
+        "code": 403
+      },
+      "server_error": {
+        "message": "Terjadi kesalahan pada server",
+        "status": "error",
+        "code": 500
+      }
+    }
+  }
+} 

@@ -1,0 +1,88 @@
+{
+    "info": {
+        "_postman_id": "12345678-1234-1234-1234-123456789abc",
+        "name": "Certificate API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get All Certificates",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/certificates/",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "3000",
+                    "path": ["certificates"]
+                }
+            }
+        },
+        {
+            "name": "Get Certificate By ID",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/certificates/:id",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "3000",
+                    "path": ["certificates", ":id"]
+                }
+            }
+        },
+        {
+            "name": "Create Certificate",
+            "request": {
+                "method": "POST",
+                "header": [
+                    { "key": "Content-Type", "value": "application/json" }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"participant_name\": \"Budi Santoso\",\n    \"training_title\": \"Public Speaking Mastery\",\n    \"organizer\": \"Genuicomm\",\n    \"duration\": 3,\n    \"subject\": \"Teknik berbicara, gestur, intonasi\",\n    \"location\": \"Jakarta\",\n    \"training_date\": \"2025-03-25\",\n    \"participant_role\": \"Peserta\",\n    \"provider\": \"Genuicomm Academy\",\n    \"date_of_issue\": \"2025-03-26\",\n    \"number\": \"CERT-20250325-001\",\n    \"file\": \"budi_certificate.pdf\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3000/certificates/",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "3000",
+                    "path": ["certificates"]
+                }
+            }
+        },
+        {
+            "name": "Update Certificate",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    { "key": "Content-Type", "value": "application/json" }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"participant_name\": \"Budi Santoso\",\n    \"training_title\": \"Advanced Public Speaking\",\n    \"organizer\": \"Genuicomm\",\n    \"duration\": 5,\n    \"subject\": \"Latihan intensif presentasi\",\n    \"location\": \"Bandung\",\n    \"training_date\": \"2025-04-01\",\n    \"participant_role\": \"Peserta\",\n    \"provider\": \"Genuicomm Academy\",\n    \"date_of_issue\": \"2025-04-02\",\n    \"number\": \"CERT-20250401-002\",\n    \"file\": \"budi_certificate_v2.pdf\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3000/certificates/:id",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "3000",
+                    "path": ["certificates", ":id"]
+                }
+            }
+        },
+        {
+            "name": "Delete Certificate",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost:3000/certificates/:id",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "3000",
+                    "path": ["certificates", ":id"]
+                }
+            }
+        }
+    ]
+}
