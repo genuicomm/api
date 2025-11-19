@@ -1,0 +1,1 @@
+INSERT INTO "users" ("email","password_hash","full_name") VALUES ('admin@genuicomm.id','$2a$10$ssXPUgR0ChtsvjPi3OeVB.ouaOQX7V0iqfJjjgaTJ508Zw7UYsmpO','Admin Genuicomm')
