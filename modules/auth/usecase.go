@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/golang-jwt/jwt"
-	"gitlab.com/genuicomm/api/domain"
-	"gitlab.com/genuicomm/api/modules/user"
+	"github.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/modules/user"
 	"golang.org/x/crypto/bcrypt"
 )
 

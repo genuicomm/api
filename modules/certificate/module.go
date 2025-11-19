@@ -2,7 +2,7 @@ package certificate
 
 import (
 	"github.com/gin-gonic/gin"
-	"gitlab.com/genuicomm/api/db"
+	"github.com/genuicomm/api/db"
 )
 
 type Module struct {

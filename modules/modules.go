@@ -5,16 +5,16 @@ import (
 	"log"
 
 	"github.com/gin-gonic/gin"
-	"gitlab.com/genuicomm/api/db"
-	"gitlab.com/genuicomm/api/modules/article"
-	articlecategory "gitlab.com/genuicomm/api/modules/article_category"
-	"gitlab.com/genuicomm/api/modules/auth"
-	"gitlab.com/genuicomm/api/modules/certificate"
-	f "gitlab.com/genuicomm/api/modules/file"
-	"gitlab.com/genuicomm/api/modules/section"
-	"gitlab.com/genuicomm/api/modules/user"
-	"gitlab.com/genuicomm/api/pkg/config"
-	"gitlab.com/genuicomm/api/pkg/middleware"
+	"github.com/genuicomm/api/db"
+	"github.com/genuicomm/api/modules/article"
+	articlecategory "github.com/genuicomm/api/modules/article_category"
+	"github.com/genuicomm/api/modules/auth"
+	"github.com/genuicomm/api/modules/certificate"
+	f "github.com/genuicomm/api/modules/file"
+	"github.com/genuicomm/api/modules/section"
+	"github.com/genuicomm/api/modules/user"
+	"github.com/genuicomm/api/pkg/config"
+	"github.com/genuicomm/api/pkg/middleware"
 )
 
 // Module adalah interface yang harus diimplementasikan oleh setiap modul

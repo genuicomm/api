@@ -10,9 +10,9 @@ import (
 	"syscall"
 	"time"
 
-	"gitlab.com/genuicomm/api/db"
-	"gitlab.com/genuicomm/api/modules"
-	"gitlab.com/genuicomm/api/pkg/config"
+	"github.com/genuicomm/api/db"
+	"github.com/genuicomm/api/modules"
+	"github.com/genuicomm/api/pkg/config"
 )
 
 func main() {

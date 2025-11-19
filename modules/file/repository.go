@@ -2,7 +2,7 @@ package file
 
 import (
 	"github.com/google/uuid"
-	"gitlab.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/domain"
 	"gorm.io/gorm"
 )
 

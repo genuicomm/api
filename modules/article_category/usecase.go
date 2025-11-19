@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/google/uuid"
-	"gitlab.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/domain"
 )
 
 type articleCategoryUsecase struct {

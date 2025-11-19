@@ -2,7 +2,7 @@ package article
 
 import (
 	"github.com/gin-gonic/gin"
-	"gitlab.com/genuicomm/api/db"
+	"github.com/genuicomm/api/db"
 )
 
 // Module adalah struktur untuk modul article

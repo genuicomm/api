@@ -3,7 +3,7 @@ package certificate
 import (
 	"context"
 
-	"gitlab.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/domain"
 )
 
 type CertificateUsecase interface {

@@ -2,8 +2,8 @@ package auth
 
 import (
 	"github.com/gin-gonic/gin"
-	"gitlab.com/genuicomm/api/db"
-	"gitlab.com/genuicomm/api/modules/user"
+	"github.com/genuicomm/api/db"
+	"github.com/genuicomm/api/modules/user"
 )
 
 // Module adalah struktur untuk modul article

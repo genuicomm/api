@@ -3,8 +3,8 @@ package section
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"gitlab.com/genuicomm/api/domain"
-	"gitlab.com/genuicomm/api/pkg/utils"
+	"github.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/pkg/utils"
 )
 
 type Handler struct {

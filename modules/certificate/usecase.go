@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"gitlab.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/domain"
 )
 
 type certificateUsecase struct {

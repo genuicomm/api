@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"gitlab.com/genuicomm/api/domain"
-	"gitlab.com/genuicomm/api/pkg/config"
+	"github.com/genuicomm/api/domain"
+	"github.com/genuicomm/api/pkg/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
